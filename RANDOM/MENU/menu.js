@@ -173,6 +173,8 @@ global.menunya = (prefix) => {
 │ 
 ├───「 *🌐 TOOLS* 」───
 │ 
+│ ❯ ${prefix}iqc
+│ ❯ ${prefix}ocr
 │ ❯ ${prefix}remini
 │ ❯ ${prefix}remini2
 │ ❯ ${prefix}removebg
