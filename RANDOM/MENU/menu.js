@@ -152,6 +152,8 @@ global.menunya = (prefix) => {
 ├───「 *🔍 PENCARIAN* 」───
 │ 
 │ ❯ ${prefix}play
+│ ❯ ${prefix}yts
+│ ❯ ${prefix}google
 │ ❯ ${prefix}kodepos
 │ 
 ├───「 *👤 STALKER* 」───
