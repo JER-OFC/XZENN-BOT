@@ -19,11 +19,14 @@ global.menunya = (prefix) => {
 │ ❯ ${prefix}facebook
 │ ❯ ${prefix}instagram
 │ ❯ ${prefix}pindl
+│ ❯ ${prefix}snackvideo
+│ ❯ ${prefix}likee
 │ ❯ ${prefix}soundcloud
 │ ❯ ${prefix}spotify
 │ ❯ ${prefix}threads
 │ ❯ ${prefix}tiktok
 │ ❯ ${prefix}tiktokslide
+│ ❯ ${prefix}twitter
 │ ❯ ${prefix}videy
 │ ❯ ${prefix}ytmp3
 │ ❯ ${prefix}ytmp4
@@ -153,7 +156,7 @@ global.menunya = (prefix) => {
 │ 
 │ ❯ ${prefix}play
 │ ❯ ${prefix}yts
-│ ❯ ${prefix}google
+│ ❯ ${prefix}soundcloudsearch
 │ ❯ ${prefix}kodepos
 │ 
 ├───「 *👤 STALKER* 」───
