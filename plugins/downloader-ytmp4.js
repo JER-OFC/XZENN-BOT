@@ -1,18 +1,18 @@
 const axios = require("axios");
 
 let handler = async (m, { jerofc, args, reply, prefix, command, quoted }) => {
-  if (!args[0])
+  if (!text)
     return reply(
       `Silahkan Input Url Dari Youtube\n\n${
         prefix + command
-      } https://youtu.be/c8ciDyBMZ6M?si=ak8FJrzhVVKQM9Qx`
+      } https://youtu.be/gvunApwKIiY?si=rsmSHOdNysDNnVFj`
     );
   try {
     const response = await axios.get(
-      `https://jerofc.my.id/api/download/ytmp4?url=${args[0]}&apikey=${global.jerapi}`
+      `https://jerofc.my.id/api/download/ytmp4?url=${text}&apikey=${global.jerapi}`
     );
     const result = response.data.data;
-    jerofc.sendMessage(
+    await jerofc.sendMessage(
       m.chat,
       {
         document: {
